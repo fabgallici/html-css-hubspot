@@ -13,6 +13,9 @@ a {
   text-decoration: none;
   font-weight: 400;
 }
+ul {
+  list-style-type: none;
+}
 
 .orange-link {
   background-color: #FF8F73;
@@ -20,6 +23,9 @@ a {
   display: inline-block;
   padding: 13px 20px;
   border-radius: 5px;
+}
+.fa-check-circle {
+  color: #FF8F73;
 }
 
 .clearfix:after {
@@ -43,9 +49,6 @@ a {
   color: white;
 }
 /* Navbar 1 SX */
-.nav1 ul {
-  list-style-type: none;
-}
 .nav1 li {
   float: left;
   margin-top: 8px;
@@ -160,8 +163,17 @@ a {
   background-color: #F4F8FA;
 }
 .sec1-con {
-  width: 80%;
+  width: 70%;
   margin: auto;
+}
+.sec1b , .sec1c-col {
+  background-color: white;
+}
+.sec1b , .sec1c {
+  margin: 20px 0;
+}
+.sec1b , .sec1c-col {
+  padding: 20px;
 }
 .sec1a {
   margin: auto;
@@ -188,4 +200,21 @@ a {
 }
 #h4in h4 {
   display: inline;
+}
+/* sec 1c */
+.sec1c {
+  text-align: center;
+}
+.sec1c img {
+  height: 175px;
+}
+.sec1c-col {
+  float: left;
+  width: 27.33%;
+}
+.sec1c-midcol {
+  margin: 0 9%;
+}
+.sec1c hr {
+  border-top: 2px solid black;
 }
