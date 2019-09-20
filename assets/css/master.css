@@ -17,17 +17,14 @@ body {
 /*--------------- HEADER -------------- */
 /* ---- NAVBAR 1 SUPERIORE ---- */
 .nav1-wrapper {
-  height: 100px;
   background-color: #33475B;
   border-top: 3px solid #FF8F73;
 }
 .nav1 {
-  width: 90%;
+  width: 85%;
   margin: auto;
-
-  border: 1px solid white;
-  height: 100%;
 }
+/* Navbar 1 SX */
 .nav1 ul {
   list-style-type: none;
   padding-top: 7px;
@@ -35,10 +32,23 @@ body {
 .nav1 li {
   float: left;
 }
-.nav1 li a {
+.nav1 li a , #user-menu {
   text-decoration: none;
   color: white;
   margin-left: 15px;
+}
+#user-menu {
+  display: inline-block;
+  padding-top: 5px;
+}
+/* Navbar 1 DX */
+.nav1-dx {
+  float: right;
+  width: 80px;
+  border-bottom: 5px;
+}
+.nav1-dx:nth-of-type(3) {
+  border-left: 1px solid #FF8F73;
 }
 #favicon {
   height: 35px;
