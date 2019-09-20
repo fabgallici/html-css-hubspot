@@ -6,9 +6,7 @@
 }
 
 body {
-  background-color: pink;
   font-family: 'Didact Gothic', sans-serif;
-  /* font-family: 'Open Sans', sans-serif; */
 }
 
 a {
@@ -16,13 +14,13 @@ a {
   font-weight: 400;
 }
 
-/* .green-link {
-  background-color: #FF7A59;
+.orange-link {
+  background-color: #FF8F73;
   color: white;
   display: inline-block;
   padding: 13px 20px;
   border-radius: 5px;
-} */
+}
 
 .clearfix:after {
   content: "";
@@ -140,7 +138,7 @@ a {
 .topS-wrapper {
   height: 700px;
   background-image: url("../img/bg.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
@@ -155,4 +153,39 @@ a {
   display: inline-block;
   padding: 20px 30px;
   border-radius: 5px;
+}
+
+/* -------- SECTION 1 -------- */
+.sec1-wrapper {
+  background-color: #F4F8FA;
+}
+.sec1-con {
+  width: 80%;
+  margin: auto;
+}
+.sec1a {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  padding: 60px 0;
+}
+.sec1a img {
+  height: 200px;
+}
+.sec1b-right {
+  float: right;
+}
+.sec1b-right:first-child {
+  margin-left: 10%;
+  width: 60%;
+}
+.sec1b-right:last-child {
+  text-align: center;
+}
+#book-img {
+  height: 150px;
+  display: block;
+}
+#h4in h4 {
+  display: inline;
 }
