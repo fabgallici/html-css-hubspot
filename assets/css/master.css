@@ -7,20 +7,22 @@
 
 body {
   background-color: pink;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 a {
   text-decoration: none;
+  font-weight: 400;
 }
 
-.green-link {
+/* .green-link {
   background-color: #FF7A59;
   color: white;
   display: inline-block;
   padding: 13px 20px;
   border-radius: 5px;
-}
+} */
 
 .clearfix:after {
   content: "";
@@ -133,3 +135,24 @@ a {
 }
 
 /* -------- FINE HEADER--------- */
+/* ----------------------------- */
+/* -------- TOP SECTION -------- */
+.topS-wrapper {
+  height: 700px;
+  background-image: url("../img/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+}
+.topS-con {
+  margin-left: 10%;
+  width: 25%;
+  padding-top: 100px;
+}
+#topSlink {
+  background-color: #E6F4F7;
+  color: #4B8CA8;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
