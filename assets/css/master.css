@@ -8,3 +8,39 @@
 body {
   background-color: pink;
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*--------------- HEADER -------------- */
+/* ---- NAVBAR 1 SUPERIORE ---- */
+.nav1-wrapper {
+  height: 100px;
+  background-color: #33475B;
+  border-top: 3px solid #FF8F73;
+}
+.nav1 {
+  width: 90%;
+  margin: auto;
+
+  border: 1px solid white;
+  height: 100%;
+}
+.nav1 ul {
+  list-style-type: none;
+  padding-top: 7px;
+}
+.nav1 li {
+  float: left;
+}
+.nav1 li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+#favicon {
+  height: 35px;
+  float: left;
+}
