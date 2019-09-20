@@ -218,3 +218,32 @@ ul {
 .sec1c hr {
   border-top: 2px solid black;
 }
+
+/* -------- SECTION 2 contain sec2a sec2b */
+.sec2-wrapper {
+  background-color: #00BAA7;
+  color: white;
+  text-align: center;
+}
+.sec2a {
+  margin: auto;
+  width: 65%;
+  padding: 40px 0;
+}
+.sec2b {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.sec2-rowCol {
+  float: left;
+  width: 25%;
+  padding: 20px 0;
+  border-right: 1px solid;
+}
+.sec2-row1 .sec2-rowCol {
+  border-bottom: 2px solid;
+}
+.sec2-rowCol:last-child {
+  border-right: none;
+}
