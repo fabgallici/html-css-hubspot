@@ -49,38 +49,44 @@ ul {
 }
 /* Navbar 1 SX */
 #head1-logo {
-  height: 35px;
   float: left;
 }
 .head1 nav, .head1 li {
   float: left;
 }
 
-.head1 i {
+.head1 i, #user-menu i {
   color: white;
 }
 .head1 li {
-  margin-top: 8px;
+  margin-top: 10px;
+  padding-left: 30px;
 }
-.head1 li a , #user-menu {
+.head1 li a {
   color: white;
-  margin-left: 15px;
 }
-#user-menu {
-  display: inline-block;
-  padding-top: 5px;
-}
+
 /* Navbar 1 DX */
 .head1-dx {
   float: right;
-  width: 80px;
-  border-bottom: 5px;
+  width: 22%;
+}
+.head1-dx .col {
+  float: left;
+  width: 25%;
+  line-height: 35px;
   text-align: center;
 }
-.head1-dx:nth-of-type(4) {
+.head1-dx .col:nth-of-type(2) {
   border-right: 1px solid #FF8F73;
 }
-
+.head1-dx .col:nth-last-of-type(1n+2) a i {
+  color: black;
+  font-size: 1.3em;
+}
+#user-menu {
+  color: white;
+}
 
 /* ---- NAVBAR 2 SUPERIORE ---- */
 .head2-wrapper {
