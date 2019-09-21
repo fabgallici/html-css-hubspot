@@ -237,31 +237,73 @@ ul {
   border-top: 2px solid black;
 }
 
-/* -------- SECTION 2 contain sec2a sec2b */
+/* -------- SECTION 2 ------------- */
 .sec2-wrapper {
   background-color: #00BAA7;
   color: white;
   text-align: center;
 }
-.sec2a {
+.sec2A {
   margin: auto;
   width: 65%;
   padding: 40px 0;
 }
-.sec2b {
+.sec2B {
   width: 80%;
   margin: auto;
   padding-bottom: 40px;
 }
-.sec2-rowCol {
+.sec2-col {
   float: left;
   width: 25%;
   padding: 20px 0;
   border-right: 1px solid;
 }
-.sec2-row1 .sec2-rowCol {
+.sec2-row1 .sec2-col {
   border-bottom: 2px solid;
 }
-.sec2-rowCol:last-child {
+.sec2-col:last-child {
   border-right: none;
 }
+
+/* -------- SECTION 3 ------------- */
+.sec3-cont {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.sec3A {
+  margin: 100px 0;
+}
+.sec3A-sx, .sec3A-dx, .sec3A-col  {
+  float: left;
+}
+.sec3A-sx {
+  width: 40%;
+}
+.sec3A-dx {
+  width: 60%;
+  margin-top: 40px;
+}
+.sec3A-col {
+  width: 25%;
+}
+/* sec 3b */
+.sec3B-sx, .sec3B-dx {
+  float: left;
+}
+.sec3B-sx {
+  width: 50%;
+}
+.sec3B-dx {
+  background-color: #F8B566;
+  border-radius: 50%;
+  width: 300px;
+  text-align: center;
+  margin-left: 10%;
+}
+.sec3B-dx img {
+  height: 300px;
+}
+
+/* ----------- FOOTER ---------------- */
