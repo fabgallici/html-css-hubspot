@@ -307,3 +307,50 @@ ul {
 }
 
 /* ----------- FOOTER ---------------- */
+footer {
+  background-color: #33475B;
+  color: white;
+}
+.foot-cont {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+.foot-col {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+  line-height: 35px;
+  font-size: 0.9em;
+}
+.foot-col li:first-child {
+  font-weight: 900;
+}
+.foot-col a {
+  color: white;
+}
+
+.foot-social {
+  width: 25%;
+  position: relative;
+  left: 73%;
+  /* bottom: 0; */
+}
+.footS-row1 {
+  margin-bottom: 15px;
+}
+.footS-obj {
+  float: left;
+  width: 20%;
+}
+.footS-obj i {
+  color: white;
+  font-size: 1.5em;
+}
+#contactBtn {
+  color: #33475B;
+  display:inline-block;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 20px;
+}
