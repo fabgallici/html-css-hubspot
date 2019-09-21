@@ -96,21 +96,23 @@ ul {
   width: 80%;
   margin: auto;
   padding: 15px 0;
+  font-size: 1.1em;
 }
-#user-small {
+
+.head2 nav , .head2 nav li {
   float: left;
 }
-.head2-left {
-  float: left;
-  padding: 0 10px;
-  margin-top: 10px;
-}
-.head2-left a {
+.head2 li a, .head2-right i {
   color: #33475B;
 }
-.head2-left:nth-of-type(2) {
+.head2 li {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+.head2 li:first-child {
   border-right: 2px solid #33475B;
 }
+/* Head 2 Right */
 .head2-right {
   float: right;
 }
@@ -118,12 +120,10 @@ ul {
     background-color: #FF7A59;
     color: white;
     display: inline-block;
-    padding: 7px 25px;
+    padding: 5px 30px;
     border: 2px solid black;
 }
-.head2-right i {
-  color: #33475B;
-}
+
 /* ---- NAVBAR 3 SUPERIORE ---- */
 .head3-wrapper {
   background-color: #FFF;
