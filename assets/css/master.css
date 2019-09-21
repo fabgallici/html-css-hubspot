@@ -177,9 +177,23 @@ ul {
 .sec1-wrapper {
   background-color: #F4F8FA;
 }
-.sec1-con {
+.sec1-cont {
   width: 70%;
   margin: auto;
+}
+
+.sec1a {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  padding: 60px 0;
+}
+.sec1a img {
+  height: 200px;
+}
+/* Section 1b */
+.sec1b-dx {
+  float: right;
 }
 .sec1b , .sec1c-col {
   background-color: white;
@@ -190,33 +204,22 @@ ul {
 .sec1b , .sec1c-col {
   padding: 20px;
 }
-.sec1a {
-  margin: auto;
-  width: 75%;
-  text-align: center;
-  padding: 60px 0;
-}
-.sec1a img {
-  height: 200px;
-}
-.sec1b-right {
-  float: right;
-}
-.sec1b-right:first-child {
+.sec1b-dx:first-child {
   margin-left: 10%;
   width: 60%;
 }
-.sec1b-right:last-child {
+.sec1b-dx:last-child {
   text-align: center;
 }
 #book-img {
   height: 150px;
   display: block;
 }
-#h4in h4 {
+#h4inl h4 {
   display: inline;
 }
-/* sec 1c */
+
+/* sec 1c con regole su sec 1b*/
 .sec1c {
   text-align: center;
 }
