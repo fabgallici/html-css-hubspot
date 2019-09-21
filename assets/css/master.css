@@ -1,3 +1,4 @@
+/* -------- GENERAL RULES --------- */
 * {
   margin: 0;
   border: 0;
@@ -6,12 +7,24 @@
 }
 
 body {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Didact Gothic', sans-serif; */
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+h3, h4, h5 {
+  margin: 10px 0;
 }
 
 a {
   text-decoration: none;
-  font-weight: 400;
 }
 ul {
   list-style-type: none;
@@ -202,7 +215,7 @@ ul {
   margin: 20px 0;
 }
 .sec1b , .sec1c-col {
-  padding: 20px;
+  padding: 25px;
 }
 .sec1b-dx:first-child {
   margin-left: 10%;
@@ -229,6 +242,13 @@ ul {
 .sec1c-col {
   float: left;
   width: 27.33%;
+}
+.sec1c-col li {
+  padding: 5px 0;
+  text-align: left;
+}
+.sec1c-col li:last-child {
+  text-align: center;
 }
 .sec1c-midcol {
   margin: 0 9%;
@@ -279,7 +299,8 @@ ul {
   float: left;
 }
 .sec3A-sx {
-  width: 40%;
+  width: 30%;
+  margin-right: 10%;
 }
 .sec3A-dx {
   width: 60%;
@@ -293,7 +314,8 @@ ul {
   float: left;
 }
 .sec3B-sx {
-  width: 50%;
+  width: 45%;
+  margin-right: 5%;
 }
 .sec3B-dx {
   background-color: #F8B566;
