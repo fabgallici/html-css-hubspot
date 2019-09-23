@@ -58,6 +58,12 @@ ul {
   clear: both;
 }
 /*--------------- HEADER -------------- */
+/* Menu Position Fixed */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /* ---- Header 1 SUPERIORE ---- */
 
 
@@ -181,6 +187,8 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  /* regola per pos fixed */
+  margin-top: 182px;
 }
 .topS-con {
   margin-left: 10%;
