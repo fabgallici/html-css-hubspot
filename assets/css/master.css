@@ -246,6 +246,9 @@ header {
   height: 150px;
   display: block;
 }
+.sec1b-dx ul li, .sec1b-dx h4 {
+  display: inline;
+}
 
 /* sec 1c con regole su sec 1b*/
 .sec1c {
