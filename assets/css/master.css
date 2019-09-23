@@ -63,6 +63,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 /* ---- Header 1 SUPERIORE ---- */
 
@@ -177,7 +178,38 @@ header {
 .head3 a {
   color: #33475B;
 }
-
+/*----- Header 3 Drop Down Menu ----------*/
+.dropdown {
+  position: relative;
+}
+.res-content {
+  position: absolute;
+  display: none;
+  right: -150px;
+  width: 600px;
+  background-color: white;
+  border: 1px solid #CBD6E2;
+  z-index: 2;
+  text-align: center;
+  padding: 5px;
+}
+.res-content ul {
+  padding: 10px;
+}
+.res-content li {
+  width: 33%;
+  padding: 10px;
+}
+.res-content hr {
+  border-top: 1px solid #CBD6E2;
+}
+.dropdown:hover .res-content {
+  display: block;
+}
+.res-content li:hover {
+  background-color: #E5F5F8;
+  cursor: pointer;
+}
 /* -------- FINE HEADER--------- */
 /* ----------------------------- */
 /* -------- TOP SECTION -------- */
